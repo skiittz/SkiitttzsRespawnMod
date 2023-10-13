@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <RespawnShips>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnPlanetPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnPlanetPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnPlanetPod</Prefab>
+      
+      <MinimalAirDensity>0.8</MinimalAirDensity>
+      <PlanetDeployAltitude>2000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+
+      <InitialLinearVelocity x="0" y="-95" z="0" />
+      <InitialAngularVelocity x="0" y="0.5" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Explorer-MK4Planet</SubtypeId>
+      </Id>
+      <DisplayName>Explorer Rover</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\DropRoverIconPlanet.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Explorer-MK4</Prefab>
+      
+      <MinimalAirDensity>0.8</MinimalAirDensity>
+      <PlanetDeployAltitude>2000</PlanetDeployAltitude>
+      <UseForPlanetsWithAtmosphere>true</UseForPlanetsWithAtmosphere>
+
+      <InitialLinearVelocity x="0" y="-95" z="0" />
+      <InitialAngularVelocity x="0" y="0.5" z="0" />
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+
+      <PlanetTypes> <!-- automatic locking to planets -->
+        <PlanetType>EarthLike</PlanetType>
+        <PlanetType>Pertam</PlanetType>
+        <!-- PlanetType>Mars</PlanetType -->
+        <!-- PlanetType>Alien</PlanetType -->
+        <!-- PlanetType>Titan</PlanetType -->
+        <!-- PlanetType>Moon</PlanetType -->
+        <!-- PlanetType>Europa</PlanetType -->
+      </PlanetTypes>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnMoonPod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_PlanetaryLander</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnMoonPod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnMoonPod</Prefab>
+      
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Explorer-MK4Moon</SubtypeId>
+      </Id>
+      <DisplayName>Explorer Rover</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\DropRoverIconMoon.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Explorer-MK4</Prefab>
+      
+      <PlanetDeployAltitude>8</PlanetDeployAltitude>
+      <UseForPlanetsWithoutAtmosphere>true</UseForPlanetsWithoutAtmosphere>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>RespawnSpacePod</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\RespawnSpacePod.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>RespawnSpacePod</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+    <Ship Enabled="false">
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Explorer-MK5Space</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_RespawnPodSpace</DisplayName>
+      <Icon>Textures\GUI\Icons\RespawnShips\DropShipIconSpace.png</Icon>
+      <CooldownSeconds>900</CooldownSeconds>
+      <Prefab>Explorer-MK5</Prefab>
+      
+      <UseForSpace>true</UseForSpace>
+      <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+    </Ship>
+  </RespawnShips>
+</Definitions>
