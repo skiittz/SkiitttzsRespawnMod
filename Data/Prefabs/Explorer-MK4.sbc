@@ -531,6 +531,35 @@
                           </PhysicalContent>
                           <ItemId>6</ItemId>
                         </MyObjectBuilder_InventoryItem>
+                        <MyObjectBuilder_InventoryItem>
+                          <Amount>1</Amount>
+                          <PhysicalContent xsi:type="MyObjectBuilder_Datapad">
+                            <SubtypeName>Datapad</SubtypeName>
+                            <Name>!!! IMPORTANT INFO !!!</Name>
+                            <Data>Thermal Signatures:
+                              Your ship will generate a thermal signature that can be seen by other players based on power generation/H2 thrust.   
+
+                              Signal generation (1km per MW):
+                              Reactors: 100% 
+                              H2 engines: 50%
+                              Batteries: 25%
+                              Solar Wind: 0%
+                              In Atmosphere: 50%
+                              Grid Is Static: 25%
+                              Large Grid H2 Thruster: ~1.5km at full burn
+                              An active safe zone will set all signatures to 100%, removing any reduction
+
+                              Jump Drives:
+                              Increased range, increased cost, cannot be used for blind jumps.  Use Frameshift drive for local travel.
+
+                              Ore:
+                              Mineable Platinum only exists on Teal.  Mineable Uranium only exists on Lithios.  Mineable Gold exists only on Titan. You can purchase or loot limited quantities from NPCs. 
+
+                              Planets:
+                              Earth ore is deeper but has larger veins.  Pertam has smaller veins but closer to the surface.  Teal is very far away but is a pretty docile place.  It only has Platinum, Ice, and Stone.  Lithios is even further, guarded by hostile NPCs, and is constantly ravaged by electrical storms.</Data>
+                          </PhysicalContent>
+                          <ItemId>7</ItemId>
+                        </MyObjectBuilder_InventoryItem>
                       </Items>
                       <nextItemId>7</nextItemId>
                       <Volume>1</Volume>

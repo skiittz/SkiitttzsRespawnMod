@@ -100,6 +100,10 @@
       
       <UseForSpace>true</UseForSpace>
       <HelpTextLocalizationId>RespawnScreeenHelpTextSpaceSpawn</HelpTextLocalizationId>
+
+      <SpawnPosition x="0" y="0" z="0" />
+      <SpawnPositionDispersionMin>0</SpawnPositionDispersionMin>
+      <SpawnPositionDispersionMax>2000</SpawnPositionDispersionMax>
     </Ship>
   </RespawnShips>
 </Definitions>
