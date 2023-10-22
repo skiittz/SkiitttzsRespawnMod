@@ -40,11 +40,11 @@
       <PlanetTypes> <!-- automatic locking to planets -->
         <PlanetType>EarthLike</PlanetType>
         <PlanetType>Pertam</PlanetType>
-        <!-- PlanetType>Mars</PlanetType -->
-        <!-- PlanetType>Alien</PlanetType -->
-        <!-- PlanetType>Titan</PlanetType -->
-        <!-- PlanetType>Moon</PlanetType -->
-        <!-- PlanetType>Europa</PlanetType -->
+        <PlanetType>Mars</PlanetType>
+        <PlanetType>Alien</PlanetType>
+        <!--PlanetType>Titan</PlanetType-->
+        <!--PlanetType>Moon</PlanetType-->
+        <!--PlanetType>Europa</PlanetType-->
       </PlanetTypes>
     </Ship>
     <Ship Enabled="false">
